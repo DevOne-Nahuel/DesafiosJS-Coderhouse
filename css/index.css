@@ -1,0 +1,54 @@
+:root{
+/*Variables globales*/
+--colorUno: black;
+--colorDos: white;
+--colortres: rgb(184, 181, 181);
+--colorCuatro: rgb(97, 8, 133);
+--colorCinco: #ffbe50;
+--fuenteUno: "Nunito", sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.fondoIndex {  
+    background-image: linear-gradient(147deg, #000000 0%, #04619f 74%);
+    background-size:cover;  
+    background-repeat: no-repeat;  
+}
+
+.tituloPrincipal {      
+    color: var(--colorCinco);
+    font-size: 325%; 
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 0.5px grey;
+    font-family: var(--fuenteUno);   
+}
+
+.titulo {
+    color: var(--colorDos);
+    font-size: 200%; 
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 0.5px grey;
+    font-family: var(--fuenteUno)
+}
+
+.subtitulo {
+    color: var(--colorDos);
+    font-size: 175%; 
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 1.5px 1.5px 0.5px grey;
+    font-family: var(--fuenteUno)
+}
+
+.contenedorCentral {
+    display:flex;
+    justify-content: center;
+
+}
+
