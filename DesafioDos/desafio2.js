@@ -18,8 +18,8 @@ else if ((ingresoTemp <37.5) && (ingresoTemp >=37)) {
     alert("Tiene febricula y podría estar gestando Covid. ¡Debe aislarse por 365 días!");
 }
 else if ((ingresoTemp <37) && (ingresoTemp >=34)) {
-    console.log("Tiene una temperatura normal, puede seguir mirando la tele.");
-    alert("Tiene una temperatura normal, puede seguir mirando la tele.");
+    console.log("Tiene una temperatura normal, no hay de que preocuparse.");
+    alert("Tiene una temperatura normal, no hay de que preocuparse.");
 }
 else if (ingresoTemp <34) {
     console.log("Usted es un zombie, o la está por quedar. ¡Llame ya a emergencias!");
